@@ -5,9 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: file:///${user.home}/Projects/smartfactory/smartfactory-configuration
+          uri: file://${user.home}/Projects/smartfactory/smartfactory-configuration
+          clone-on-start: true
+          default-label: main
+
 server:
-  port: 8083
+  port: 8888
 eureka:
   client:
     serviceUrl:
