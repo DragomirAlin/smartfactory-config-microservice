@@ -8,6 +8,8 @@ spring:
           uri: https://github.com/DragomirAlin/smartfactory-configuration
           clone-on-start: true
           default-label: main
+  devtools:
+    add-properties: false
 
 server:
   port: 8888
